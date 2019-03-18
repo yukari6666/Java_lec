@@ -1,0 +1,6 @@
+
+public class random extends techfin{
+	public static void main(String[] args) {
+		import  java.utill.Random;
+	}
+}

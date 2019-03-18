@@ -21,5 +21,6 @@ public class TechTech {
 		System.out.println((inputnumber + number2) + number3);
 		
 		
+		
 	}
 }
