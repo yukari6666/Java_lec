@@ -1,0 +1,16 @@
+package TotalSum;
+
+public class TotalSum {
+	public void totalsum (int startvalue, int endvalue) {
+		int start = startvalue;
+		int end = endvalue;
+		int sum = 0;
+		
+		for(int i = start; i <= end; i++) {
+			sum = sum + i;
+		}//end for
+		System.out.println("시작값: "+ start);
+		System.out.println("종료값: "+ end);
+		System.out.println("c총 합: "+ sum);
+	}
+}

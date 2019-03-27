@@ -7,10 +7,10 @@ public class tst14_4 {
 	public static void main(String[] args) {
 		Random r = new Random();
 		int i = 0;
-		int[] arr = new int[30];
+		int[ ] arr = new int[ 30 ];
 		for (i = 0; i < 30; i++) {
 			int rand = r.nextInt(100);
-			arr[i] = rand;
+			arr[ i ] = rand;
 		}
 		System.out.println("랜덤하게 발생한 숫자는");
 		System.out.println(Arrays.toString(arr));
