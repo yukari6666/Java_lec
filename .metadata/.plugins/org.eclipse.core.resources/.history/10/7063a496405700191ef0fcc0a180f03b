@@ -1,0 +1,22 @@
+import java.util.Random;
+
+public class Enemy {
+	String name = "";
+	int hp = 0;
+	public boolean status() {
+		if (hp > 0) {
+			return true;
+		}
+		return false;
+	}
+	public void attack() {
+		Random rand = new Random();
+		int hitNumber = rand.nextInt();
+		if (hitNumber == 5) {
+			hp = hp- 1;
+			System.out.println("적이 10의 피해를 입었습니다.");
+		}else {
+			System.out.println("적이 회피했습니다.");
+		}
+	}
+}

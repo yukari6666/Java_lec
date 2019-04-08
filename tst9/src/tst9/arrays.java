@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class arrays {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);//배열 길이 받는 스캐너 선언
-		Scanner scanner2 = new Scanner(System.in);//배열 안 값 받는 스캐너 선언
+		Scanner scanner2 = new Scanner(System.in);//배열 값 받는 스캐너 선언
 		
 		System.out.println("만들 배열의 길이를 선택해주세요. 추천: 3");
 		int inputuser = scanner.nextInt();//배열 길이 받는 부분

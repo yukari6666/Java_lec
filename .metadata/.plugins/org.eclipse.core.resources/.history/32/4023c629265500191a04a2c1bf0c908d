@@ -1,0 +1,17 @@
+package backJun;
+import java.util.Scanner;
+public class A_PLUS_B {
+public static void main(String[] args) {
+	int A;
+	int B;
+	Scanner scan = new Scanner(System.in);
+	System.out.println("A의 값은");
+	A = scan.nextInt();
+	System.out.println(A+"입니다.");
+	System.out.println("B의 값은");
+	B = scan.nextInt();
+	System.out.println(B+"입니다.");
+	System.out.println("A와 B의 값은 "+ (A+B) + "입니다.");
+	
+}
+}

@@ -1,0 +1,10 @@
+package backJun;
+import java.util.Scanner;
+public class input_print {
+public static void main(String[] args) {
+	Scanner inp = new Scanner(System.in);
+	System.out.println("문자를 입력해주세요");
+	String text =inp.nextLine();
+	System.out.println(text);
+}
+}

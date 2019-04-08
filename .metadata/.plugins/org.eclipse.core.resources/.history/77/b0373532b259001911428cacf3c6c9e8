@@ -1,0 +1,9 @@
+package test_0408;
+
+public class Running {
+	public static void main(String[] args) {
+		Test2 test2 = new Test2();
+		test2.inputNumbers();
+		test2.printResult();
+	}
+}

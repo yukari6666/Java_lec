@@ -1,0 +1,9 @@
+package backJun;
+import java.util.Scanner;
+public class input_print {
+public static void main(String[] args) {
+	Scanner inp = new Scanner(System.in);
+	String text =inp.nextLine();
+	System.out.println("입력받은 문자: "+text);
+}
+}
