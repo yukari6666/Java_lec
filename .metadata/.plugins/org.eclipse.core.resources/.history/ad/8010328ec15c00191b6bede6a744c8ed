@@ -1,0 +1,6 @@
+
+public class tst_0412P {
+	public void print() {
+		System.out.println("Hello");
+	}
+}
