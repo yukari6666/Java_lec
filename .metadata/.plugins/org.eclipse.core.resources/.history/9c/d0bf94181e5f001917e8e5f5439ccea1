@@ -1,0 +1,6 @@
+
+public class Random {
+	public void Random1() {
+		Random rand = new Random();
+	}
+}

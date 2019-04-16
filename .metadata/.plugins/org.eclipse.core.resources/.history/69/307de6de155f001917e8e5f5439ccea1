@@ -1,0 +1,8 @@
+
+public class o2  { // extends Object 동일
+	String name = "Helllo";
+	@Override
+	public String toString() {
+		return this.name;
+	}
+}

@@ -1,0 +1,10 @@
+import java.util.Random;
+
+public class Random2 extends Random {
+	@Override
+	public int nextInt(int range) {
+		int newMethodNumber = super.nextInt(range);
+		return newMethodNumber;
+	}
+	
+}

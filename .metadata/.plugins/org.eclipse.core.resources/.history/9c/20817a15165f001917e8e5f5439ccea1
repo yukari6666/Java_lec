@@ -1,0 +1,16 @@
+
+public class o2  { // extends Object 동일
+	String name = "Helllo";
+	@Override
+	public String toString() {
+		return this.name;
+	}
+	@Override
+		public boolean equals(Object obj) {
+		o2 obj2 = (o2)obj;
+		if (this.name.equals(obj2.name)) {
+			return true;
+		}
+		return false;
+		}
+}

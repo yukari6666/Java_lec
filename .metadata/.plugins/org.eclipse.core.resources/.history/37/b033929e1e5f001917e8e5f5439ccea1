@@ -1,0 +1,7 @@
+import java.util.Random;
+
+public class Extends_Random extends Random {
+	public int newMethod(int range) {
+		int newMethodNumber = super.nextInt(range)+100;
+		return newMethodNumber;
+	}}
