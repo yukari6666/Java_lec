@@ -1,0 +1,15 @@
+
+public class techfin extends Dita {
+	
+	public static void main(String[] args) {
+		int a = 66666666;
+		short b =3;
+		b = (short)a;
+		System.out.println(b);
+		
+		
+		
+		
+	}
+
+}

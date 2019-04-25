@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Square extends Figure {
+	double width = 0;
+	double hight = 0;
+	public void inputValue() {
+		Scanner scan = new Scanner(System.in);
+		
+	}
+
+}

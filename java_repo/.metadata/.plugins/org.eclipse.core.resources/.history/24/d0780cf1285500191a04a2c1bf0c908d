@@ -1,0 +1,10 @@
+package backJun;
+import java.util.Scanner;
+public class input_print {
+public static void main(String[] args) {
+String a = "Hello";
+String b = "Baekjoon";
+String c = "online judge";
+System.out.println(a+ b+ c);
+}
+}

@@ -1,0 +1,33 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class no6 {
+	public static void main(String[] args) {
+		int[][] arr = new int[3][3];
+		int Value = 0;
+		Scanner scan = new Scanner(System.in);
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				Value = scan.nextInt();
+				arr[i][j] = Value;
+			}
+		}
+		int c = 0;
+		int d = 0;
+		for (c = 0; c < 4; c++) {
+			System.out.println(String.valueOf(c) + "단계진입");
+			for (d = 0; d < 4 - 1; d++) {
+				int arrayValue = arr[c][d];
+				arr[3][c] = arr[3][c] + arrayValue;
+				int sum1 = 0;
+				if (arr.length == arr[3][d]) {
+					sum1 = sum1 + arr[3][d];
+					arr[3][3] = sum1;
+				}
+			}
+		}
+		for (int e = 0; e < arr.length; e++) {
+			System.out.println(Arrays.toString(arr[e]));
+		}
+	}
+}

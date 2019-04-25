@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class divineMethod {
+	public int importNumber1;
+	public int importNumber2;
+	public int divineNumber;
+	public void divine() {
+		Scanner scan = new Scanner(System.in);
+		importNumber2 = scan.nextInt();
+		System.out.println("첫 번째 숫자를 입력해주세요.");
+		importNumber1 = scan.nextInt();
+		System.out.println("입력된 숫자는 " + importNumber1+"입니다.");
+		System.out.println("두 번째 숫자를 입력해주세요.");
+		importNumber2 = scan.nextInt();
+		System.out.println("입력된 숫자는 "+ importNumber2+ "입니다.");
+		divineNumber = importNumber1 / importNumber2;
+		System.out.println("두 숫자의 나눈 값은 "+divineNumber+"입니다.");
+		}
+}

@@ -1,0 +1,63 @@
+import java.util.Scanner;
+public class divineMethod {
+	public double importNumber1;
+	public double importNumber2;
+	public double divineNumber;
+	public double divineNumber2;
+	public String tmp;
+	public void divine() {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("첫 번째 숫자를 입력해주세요.");
+		this.importNumber1 = scan.nextDouble();
+		
+		System.out.println(" ");
+		
+		System.out.println("입력된 숫자는 " + importNumber1+" 입니다.");
+		
+		System.out.println(" ");
+		
+		System.out.println("두 번째 숫자를 입력해주세요.");
+		this.importNumber2 = scan.nextDouble();
+		
+		System.out.println(" ");
+		
+		System.out.println("입력된 숫자는 "+ importNumber2+ " 입니다.");
+		
+		System.out.println(" ");
+		
+		this.divineNumber = this.importNumber1/this.importNumber2;
+//		Double.parseDouble(String.format("%.2f",per2));
+		this.divineNumber= Math.round(this.divineNumber*100)/100;
+		System.out.println("두 숫자의 나눈 값은 "+this.divineNumber+" 입니다.");
+		}
+	
+	public void stringDivine() {
+		Scanner scan2 = new Scanner(System.in);
+		System.out.println("첫 번째 숫자를 입력해주세요.");
+		tmp = scan2.nextLine();
+		try {
+			this.importNumber1 = Integer.parseInt(tmp);
+		} catch (Exception e) {
+			this.importNumber1 = 0;
+		}
+		
+		System.out.println("입력된 숫자는 " + tmp+" 입니다.");
+		
+		
+		System.out.println("두 번째 숫자를 입력해주세요.");
+		tmp = scan2.nextLine();
+		try {
+			this.importNumber2 = Integer.parseInt(tmp);
+		} catch (Exception e) {
+			this.importNumber2 = 0;
+		}
+
+		
+		System.out.println("입력된 숫자는 "+ tmp+ " 입니다.");
+		
+		
+		
+		
+		System.out.println("두 숫자의 나눈 값은 "+this.divineNumber+" 입니다.");
+	}
+}

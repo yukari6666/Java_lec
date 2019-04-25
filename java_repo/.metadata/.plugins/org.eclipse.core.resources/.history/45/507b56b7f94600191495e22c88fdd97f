@@ -1,0 +1,6 @@
+import java.util.Random;
+public class text3 extends Dita {
+public static void main(String[] args) {
+	
+}
+}

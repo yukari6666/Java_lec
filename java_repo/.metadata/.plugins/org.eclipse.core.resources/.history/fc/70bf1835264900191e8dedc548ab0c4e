@@ -1,0 +1,7 @@
+package 국어점수;
+import java.util.Scanner;
+public class 국어점수_평균 {
+public static void main(String[] args) {
+	
+}
+}

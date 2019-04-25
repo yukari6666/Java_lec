@@ -1,0 +1,10 @@
+package backJun;
+
+public class A_PLUS_B {
+public static void main(String[] args) {
+	int A = 10;
+	int B = 10;
+	int result = A+B;
+	System.out.println("A와 B의 값은 "+ result + "입니다.");
+}
+}

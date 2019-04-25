@@ -1,0 +1,10 @@
+
+public class techfin extends Dita {
+	
+	public static void main(String[] args) {
+		int b = 666666666666666;
+		
+		
+	}
+
+}

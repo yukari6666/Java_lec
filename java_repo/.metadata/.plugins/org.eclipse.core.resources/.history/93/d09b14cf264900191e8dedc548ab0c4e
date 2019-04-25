@@ -1,0 +1,25 @@
+package 국어점수;
+import java.util.Scanner;
+public class 국어점수_평균 {
+public static void main(String[] args) {
+	int 유비;
+	int 관우;
+	int 장비;
+	Scanner scan = new Scanner(System.in);
+	System.out.println("국어 점수를 입력해주세요 (총 3명)");
+	System.out.print("유비의 국어 점수 : ");
+	유비 = scan.nextInt();
+	System.out.print("관우의 국어 점수 : ");
+	관우 = scan.nextInt();
+	System.out.print("장비의 국어 점수 : ");
+	장비 = scan.nextInt();
+	
+	System.out.println("입력 받은 점수 유비 " + 유비 + "점 " + "관우 " + 관우 + "점 " + "장비 " + 장비 + "점");
+	System.out.println("총 점수는 "+유비 + 관우 + 장비 +"점입니다");
+	
+	int avarage;
+	avarage = (유비 + 관우 + 장비 / 3);
+	System.out.println("평균은 "+avarage +"입니다");
+	
+}
+}
