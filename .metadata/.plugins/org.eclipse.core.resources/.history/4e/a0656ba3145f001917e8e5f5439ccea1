@@ -1,0 +1,13 @@
+
+public class Eqauls_toString {
+public static void main(String[] args) {
+	Object a  = new Object();
+	Object b = new Object();
+	
+	System.out.println(".equals 결과 : " + a.equals(b));
+	System.out.println(".toString 결과 : " + a.toString());
+	System.out.println("a 결과 : " + a);
+	System.out.println("b.toString 결과 : " + b.toString());
+	System.out.println("b 결과 : " + b);
+}
+}

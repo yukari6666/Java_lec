@@ -1,0 +1,7 @@
+
+public class Random_Running {
+public static void main(String[] args) {
+	Extends_Random rand = new Extends_Random();
+	System.out.println(rand.nextInt(10));
+}
+}

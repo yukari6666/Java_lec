@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INDEX VERSION 1.131+E:\eclips\eclipse workspace\.metadata\.plugins\org.eclipse.jdt.core
 518365368.index
 3369735202.index
@@ -6,3 +7,37 @@ INDEX VERSION 1.131+E:\eclips\eclipse workspace\.metadata\.plugins\org.eclipse.j
 2912972933.index
 2539858265.index
 1411789937.index
+=======
+INDEX VERSION 1.131+C:\Users\SMART-20\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
+4198605930.index
+189207513.index
+3480093122.index
+2066605910.index
+382822619.index
+2529306505.index
+494533527.index
+3762145656.index
+265292982.index
+3161056897.index
+2642215151.index
+654803971.index
+2709355888.index
+521605994.index
+2759813446.index
+230825342.index
+3372868911.index
+49373170.index
+2186899505.index
+4000383251.index
+3933876345.index
+2019992491.index
+3645645565.index
+2842528100.index
+4252197877.index
+2454602339.index
+2795230285.index
+4213789497.index
+2903336946.index
+2059742696.index
+2084578127.index
+>>>>>>> b921e74fb1417e69171a8b3407cacdeb8dd0b639

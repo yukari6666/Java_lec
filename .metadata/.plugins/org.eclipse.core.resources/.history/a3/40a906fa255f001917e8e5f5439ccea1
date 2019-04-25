@@ -1,0 +1,9 @@
+
+public class Random_Running {
+public static void main(String[] args) {
+	Random3 rand = new Random3();
+	for(int i =0; i < 10; i++) {
+	System.out.println(rand.nextInt(10));
+}
+}
+}

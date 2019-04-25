@@ -4,6 +4,10 @@ IMPORT_FILES_AND_FOLDERS_TYPE=23,1\:7,1
 PROBLEMS_FILTERS_MIGRATE=true
 SWITCH_PERSPECTIVE_ON_PROJECT_CREATION=always
 eclipse.preferences.version=1
+<<<<<<< HEAD
 platformState=1552695616226
+=======
+platformState=1552030770714
+>>>>>>> b921e74fb1417e69171a8b3407cacdeb8dd0b639
 quickStart=false
-tipsAndTricks=true
+tipsAndTricks=false
