@@ -1,0 +1,19 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class no6 {
+	public static void main(String[] args) {
+		int[][] arr = new int[4][4];
+		int Value = 0;
+		Scanner scan = new Scanner(System.in);
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = 0; j < i; j++) {
+				System.out.println("숫자를 입력해주세요");
+				Value = scan.nextInt();
+				j = Value;
+				arr[i][j] = j;
+			}
+		}
+//		System.out.println(Arrays.toString(arr));
+	}
+}

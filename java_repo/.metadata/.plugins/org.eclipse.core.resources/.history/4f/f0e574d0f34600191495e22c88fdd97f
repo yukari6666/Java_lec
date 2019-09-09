@@ -1,0 +1,8 @@
+import java.util.Random;
+public class test2 extends Dita {
+public static void main(String[] args) {
+	Random r = new Random();
+	int rcs = r.nextInt(3);
+	System.out.println(rcs);
+}
+}

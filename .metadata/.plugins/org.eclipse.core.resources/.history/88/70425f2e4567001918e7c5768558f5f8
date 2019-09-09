@@ -1,0 +1,32 @@
+
+public class RandomScore {
+	int korScore;
+	int engScore;
+	int mathScore;
+	int Sum;
+	int Total;
+	int StudentAverage;
+	int TotalAverage;
+
+	public void ScoreFunction() {
+		java.util.Random rand = new java.util.Random();
+		korScore = rand.nextInt(100);
+		engScore = rand.nextInt(100);
+		mathScore = rand.nextInt(100);
+
+		for (int i = 0; i < 5; i++) {
+			Sum = 0;
+			StudentAverage = 0;
+			System.out.println((i + 1) + "번째 학생의 점수는");
+			System.out.println("국어: " + korScore);
+			System.out.println("영어: " + engScore);
+			System.out.println("수학: " + mathScore);
+			Sum = korScore + engScore + mathScore;
+			System.out.println((i + 1) + "번째 학생의 총점은" + Sum + " 입니다.");
+			StudentAverage = Sum / 3;
+			System.out.println((i + 1) + " 번째 학생의 평균 점수는" + StudentAverage + " 입니다.");
+			Total = Total + korScore + engScore + mathScore;
+		}
+		TotalAverage = Total / 5;
+	}
+}

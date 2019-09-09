@@ -1,0 +1,8 @@
+
+public abstract class Figure {
+	String name = "삼각형 넓이 구하기";
+	public abstract void inputValue();
+	public void printResult() {
+		System.out.println(this.name);
+	}
+}
